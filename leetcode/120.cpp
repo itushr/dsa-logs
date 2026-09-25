@@ -4,7 +4,7 @@ public:
         int minsum = triangle[0][0];
         vector<int> minis = {0};
 
-        for(int i=0; i<triangle.size(); i++) {
+        for(int i=1; i<triangle.size(); i++) {
             int curri = minis[0];
             vector<int> currminis = {curri};
 
